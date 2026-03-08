@@ -1,0 +1,22 @@
+
+# virtual environment
+venv/
+env/
+
+# python cache
+__pycache__/
+*.pyc
+
+# model checkpoints (optional if large)
+*.h5
+*.pt
+
+# system files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# logs
+*.log
