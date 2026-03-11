@@ -73,8 +73,7 @@ def build_preprocessor (df_or_X:pd.DataFrame):
         ("imputer",SimpleImputer(strategy="most_frequent")),
         ("ohe",OneHotEncoder(handle_unknown="ignore",sparse_output=False))
     ])
-    
-    
+     
     #Combine the pipelines
     transformers =[]
     if cat_cols:
